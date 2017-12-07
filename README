@@ -1,0 +1,9 @@
+I folder from thonaskeck/FastBDT into mine github repository
+git clone https://github.com/mpitt82/FastBDT.git
+
+mkdir lib
+cmake -DCMAKE_INSTALL_PREFIX=/mnt/lustre/agrp/pitt/ChargedHiggs/MVA/FastBDT/lib .
+make
+make install
+
+if you want to run example, add g++ -std=c++11
